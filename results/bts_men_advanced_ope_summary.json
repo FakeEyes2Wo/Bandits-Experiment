@@ -1,0 +1,56 @@
+{
+  "bai_exploit_0.7_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 552.0,
+    "cumulative_regret": 45.5874193578612,
+    "average_reward": 0.0069
+  },
+  "exp3_gamma_0.6_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 562.0,
+    "cumulative_regret": 33.646852206680755,
+    "average_reward": 0.007025
+  },
+  "kl_ucb_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 573.0,
+    "cumulative_regret": 44.36835263774891,
+    "average_reward": 0.0071625
+  },
+  "policy_klucb_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 537.0,
+    "cumulative_regret": 45.92217202922407,
+    "average_reward": 0.0067125
+  },
+  "policy_thompson_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 546.0,
+    "cumulative_regret": 35.93016544544751,
+    "average_reward": 0.006825
+  },
+  "random_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 550.0,
+    "cumulative_regret": 46.03130315951168,
+    "average_reward": 0.006875
+  },
+  "thompson_ts_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 554.0,
+    "cumulative_regret": 38.61893722311,
+    "average_reward": 0.006925
+  },
+  "ts_eps0.7_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 551.0,
+    "cumulative_regret": 46.04396303391497,
+    "average_reward": 0.0068875
+  },
+  "ucb1_bts_men": {
+    "final_round": 80000,
+    "cumulative_reward": 574.0,
+    "cumulative_regret": 45.30208737117614,
+    "average_reward": 0.007175
+  }
+}

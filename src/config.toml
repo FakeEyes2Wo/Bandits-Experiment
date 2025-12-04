@@ -1,0 +1,27 @@
+[base]
+behavior_policy = "bts"  # 行为策略（OBD 提供 random/bts）
+campaign = "all"            # 数据子集 all/men/women
+top_k = 8                   # 选择出现频率最高的前 K 个商品作为臂
+min_count = 30              # 至少出现多少次才保留该臂
+n_rounds = 40000            # 在线模拟的轮数
+epsilon = 0.3               # TS+epsilon-greedy 的 ε（探索概率，降低过度探索）
+exploit_p = 0.8            # BAI 策略的 exploit 概率，提高利用倾向
+gamma = 0.45                # EXP3 的 γ（探索强度，折中 bts 与 random 场景）
+ucb1_exploration_coef = 1.0
+kl_ucb_c = 1.5
+kl_ucb_max_iter = 25
+kl_ucb_tol = 1e-6
+policy_klucb_prior_success = 1.0
+policy_klucb_prior_failure = 1.0
+policy_klucb_c = 1.5
+policy_klucb_max_iter = 25
+policy_klucb_tol = 1e-6
+thompson_alpha0 = 1.0
+thompson_beta0 = 1.0
+seed = 3162                   # 随机种子，保证可复现
+
+[full]
+run_full = true            # 是否遍历全量组合（true 时覆盖 base，跑 behaviors × campaigns）
+data_path = "data"          # 完整 OBD 数据所在目录，结构 data/<behavior_policy>/<campaign>/*.csv
+behaviors = ["bts"]   # 全量时的行为策略组合
+campaigns = ["all"] # 全量时的 campaign 组合

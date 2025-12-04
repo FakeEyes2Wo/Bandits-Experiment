@@ -1,0 +1,16 @@
+[project]
+name = "experiment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kagglehub>=0.3.13",
+    "obp>=0.4.1",
+    "pybandits>=4.0.16",
+    "ipython>=9.0.0",
+    "tqdm>=4.67.0",
+    "dotenv>=0.9.9",
+    "openxlab>=0.0.11",
+    "pipreq>=0.4",
+]

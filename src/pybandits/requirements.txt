@@ -1,0 +1,11 @@
+bokeh>=3.1,<4.0
+loguru>=0.6,<0.7
+numpy>=1.26; python_version == "3.12"
+numpy>=1.25; python_version >= "3.9" and python_version < "3.12"
+optuna>=3.6,<4.0
+pydantic>=1.10,<3
+pymc>=5.10,<6.0; python_version >= "3.9"
+pymc>=5.3,<6.0; python_version == "3.8"
+scikit-learn>=1.1,<2.0
+scipy>=1.11,<1.13; python_version == "3.12"
+scipy>=1.9,<1.13; python_version >= "3.8" and python_version < "3.12"

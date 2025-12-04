@@ -1,0 +1,30 @@
+{
+  "n_rounds_total": 8000,
+  "n_rounds_eval": 1600,
+  "n_actions": 80,
+  "len_list": 3,
+  "policies": {
+    "random": {
+      "ipw": 0.00625,
+      "snips": 0.00625
+    },
+    "thompson_pybandit": {
+      "ipw": 0.005869999999999999,
+      "snips": 0.0059079289035608605
+    },
+    "epsilon_greedy": {
+      "ipw": 0.000625,
+      "snips": 0.0007225433526011565
+    },
+    "softmax": {
+      "ipw": 0.006350652874076997,
+      "snips": 0.0063510067390186
+    }
+  },
+  "relative_vs_random": {
+    "random": 1.0,
+    "thompson_pybandit": 0.9391999999999998,
+    "epsilon_greedy": 0.09999999999999999,
+    "softmax": 1.0161044598523195
+  }
+}

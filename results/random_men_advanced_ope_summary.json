@@ -1,0 +1,56 @@
+{
+  "bai_exploit_0.7_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 523.0,
+    "cumulative_regret": 70.71846042290412,
+    "average_reward": 0.0065375
+  },
+  "exp3_gamma_0.6_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 432.0,
+    "cumulative_regret": 145.45482745424255,
+    "average_reward": 0.0054
+  },
+  "kl_ucb_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 473.0,
+    "cumulative_regret": 138.02346376351406,
+    "average_reward": 0.0059125
+  },
+  "policy_klucb_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 439.0,
+    "cumulative_regret": 138.05984663155766,
+    "average_reward": 0.0054875
+  },
+  "policy_thompson_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 473.0,
+    "cumulative_regret": 108.3858234459633,
+    "average_reward": 0.0059125
+  },
+  "random_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 414.0,
+    "cumulative_regret": 161.93041196360338,
+    "average_reward": 0.005175
+  },
+  "thompson_ts_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 509.0,
+    "cumulative_regret": 94.92235583518067,
+    "average_reward": 0.0063625
+  },
+  "ts_eps0.7_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 443.0,
+    "cumulative_regret": 134.39855286090148,
+    "average_reward": 0.0055375
+  },
+  "ucb1_random_men": {
+    "final_round": 80000,
+    "cumulative_reward": 457.0,
+    "cumulative_regret": 157.28885575222893,
+    "average_reward": 0.0057125
+  }
+}
